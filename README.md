@@ -1,5 +1,5 @@
 # CustomPHD
-This mod allows you to give/take the effect of the PHD perk of any player on every map by changing a variable of a specific player.
+This mod allows you to give/take the effect of the PHD perk of any player on every map by changing a variable for the respective player.
 
 I made an example script that gives the PHD perk effects to any player who achieves 100 kills after respawning.
 
