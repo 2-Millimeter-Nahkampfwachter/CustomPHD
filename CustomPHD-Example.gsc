@@ -54,7 +54,7 @@ playerdamagelastcheck( einflictor, eattacker, idamage, idflags, smeansofdeath, s
 				if(self is_insta_kill_active()){
 					radiusdamage( self.origin, 300, level.zombie_health + 69, level.zombie_health + 69, self, "MOD_GRENADE_SPLASH" );
 				}
-				radiusdamage( self.origin, 300, 2000, 500, self, "MOD_GRENADE_SPLASH" );
+				radiusdamage( self.origin, 300, 5000, 1000, self, "MOD_GRENADE_SPLASH" );
 				playfx(level.phd_fx, self.origin, anglestoforward( ( 0, 45, 55  ) ) ); 
 				self playsound( "zmb_phdflop_explo" );
 			}
